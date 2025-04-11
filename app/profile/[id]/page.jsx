@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 import { useParams } from "next/navigation";
 
-import Profile from "@components/profile";
+import Profile from "@components/Profile";
 
 function MyProfile() {
   const { data: session } = useSession();
